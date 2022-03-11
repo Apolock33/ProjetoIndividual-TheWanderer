@@ -1,0 +1,302 @@
+@font-face {
+  src: url("../../assets/fonts/JosefinSans-Light.ttf");
+  font-family: "josefin";
+}
+
+/*scroll-bar*/
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(51, 51, 51);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #36a9e1;
+  border-radius: 20px;
+}
+
+.capa {
+  background-image: url(../../assets/capa.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+}
+
+@media (min-width: 320px) {
+  .capa {
+    background-image: url(../../assets/capa.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  .saudações {
+    font-family: "josefin";
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .venhavivermae {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+  }
+  .venhaviver {
+    font-size: 35px;
+    font-family: "josefin";
+    color: #fff;
+    max-width: 450px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+  }
+  .btnmae {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .btn {
+    font-size: 17px;
+    font-family: "josefin";
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #36a9e1;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+  }
+  .titulo-1 {
+    display: flex;
+    justify-content: center;
+    color: #36a9e1;
+    font-family: "josefin";
+    font-weight: bolder !important;
+    margin: 20px 0;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .um-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .tituloS {
+    display: flex;
+    justify-content: center;
+    font-family: "josefin";
+    color: #36a9e1;
+    font-weight: bold !important;
+    margin: 20px 0;
+  }
+
+  .textoS {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "josefin";
+    color: #36a9e1;
+    font-weight: bold !important;
+    margin: 10px 40px 40px 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .capa {
+    background-image: url(../../assets/capa.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  .saudações {
+    font-family: "josefin";
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    margin: 130px 0px 30px 0px;
+  }
+  .venhavivermae {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+  }
+  .venhaviver {
+    font-size: 35px;
+    font-family: "josefin";
+    color: #fff;
+    max-width: 450px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+  }
+  .btnmae {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .btn {
+    font-family: "josefin";
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #36a9e1;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+  }
+  .titulo-1 {
+    display: flex;
+    justify-content: center;
+    color: #36a9e1;
+    font-family: "josefin";
+    font-weight: bolder !important;
+    margin: 30px 0;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .um-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .tituloS {
+    display: flex;
+    justify-content: center;
+    font-family: "josefin";
+    color: #36a9e1;
+    font-weight: bold !important;
+    margin: 20px 0;
+  }
+
+  .textoS {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "josefin";
+    color: #36a9e1;
+    font-weight: bold !important;
+    margin: 10px 40px 40px 40px;
+  }
+}
+
+@media (min-width: 651px) {
+  .capa {
+    background-image: url(../../assets/capa.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  .saudações {
+    font-family: "josefin";
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: flex-start;
+    margin: 130px 0px 30px 50px;
+  }
+  .venhavivermae {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 40px;
+  }
+  .venhaviver {
+    font-size: 35px;
+    font-family: "josefin";
+    color: #fff;
+    max-width: 550px;
+    margin-left: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center !important;
+  }
+  .btnmae {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 30px;
+  }
+  .btn {
+    font-family: "josefin";
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #36a9e1;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+  }
+  .titulo-1 {
+    display: flex;
+    justify-content: flex-start;
+    color: #36a9e1;
+    font-family: "josefin";
+    font-weight: bolder !important;
+    margin: 50px 50px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .icons {
+    display: inline-block;
+    margin: 0 30px;
+  }
+  .um-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .tituloS {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    font-family: "josefin";
+    color: #36a9e1;
+    font-size: 30px;
+    text-align: center;
+  }
+  .textoS {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 550px;
+    margin: 10px 0 30px 0;
+    font-family: "josefin";
+    color: #36a9e1;
+    font-size: 20px;
+    font-weight: bolder !important;
+  }
+}

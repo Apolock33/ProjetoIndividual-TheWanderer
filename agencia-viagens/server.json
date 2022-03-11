@@ -1,0 +1,22 @@
+{
+    "trips": [
+        {
+            "id": 1,
+            "title": "Helsinque - 10 noites",
+            "image": "https://images.pexels.com/photos/5136158/pexels-photo-5136158.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+            "Preco": 4350
+        },
+        {
+            "id": 2,
+            "title": "Islandia - 3 noites",
+            "image": "https://images.pexels.com/photos/4411070/pexels-photo-4411070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "Preco": 1650
+        },
+        {
+            "id": 3,
+            "title": "Ulaanbatar - 7 noites",
+            "image": "https://images.pexels.com/photos/7663847/pexels-photo-7663847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "Preco": 3150
+        }
+    ]
+}

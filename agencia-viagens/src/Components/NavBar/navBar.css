@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "josefin";
+  src: url(../../assets/fonts/JosefinSans-Medium.ttf);
+}
+
+@media (max-width: 650px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 50px;
+  }
+  .logomae{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .logo {
+    margin-top:20px;
+    min-width: 140px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    text-transform: uppercase;
+  }
+
+  li {
+    margin-top: 30px;
+  }
+
+  a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;  
+    font-family: "josefin";
+    font-weight:bolder;
+    padding: 15px 15px;
+    border-radius: 5px;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #36a9e1;
+    font-family: "josefin";
+    font-weight: bold;
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 2px;
+    border-radius: 5px;
+  }
+  .qlqr{
+    color:deepskyblue;
+  }
+}
+@media (min-width: 651px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+
+  .logo {
+    margin: 30px 100px 30px 0px;
+    min-width: 100px;
+  }
+
+  ul {
+    display: flex;
+    text-transform: uppercase;
+  }
+
+  li {
+    margin-top: 40px;
+    font-size: 15px !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    margin-left: 20px;
+    font-family: "josefin";
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #36a9e1;
+    margin-left: 20px;
+    font-family: "josefin";
+    font-weight: bold;
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 2px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 900px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+
+  .logo {
+    margin: 30px 100px 30px 0px;
+    min-width: 140px;
+  }
+
+  ul {
+    display: flex;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    margin-left: 20px;
+    font-family: "josefin";
+  }
+  a:hover {
+    text-decoration: none;
+    color: #36a9e1;
+    margin-left: 20px;
+    font-family: "josefin";
+    font-weight: bold;
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 5px;
+  }
+}
